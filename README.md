@@ -11,6 +11,8 @@ The dataset used in this analysis comes from the California Safe Cosmetics Progr
 ## Overview of the Dataset
 - Contains 114,635 rows and 22 columns
 - Includes data on chemical names, brands, product categories, and reporting dates
+- Link ('https://s3.amazonaws.com/og-production-open-data-chelseama-892364687672/resources/57da6c9a-41a7-44b0-ab8d-815ff2cd5913/cscpopendata.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJJIENTAPKHZMIPXQ%2F20250415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250415T225453Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=64dff276366e61a2fa146f987f5e5e0bcded0b6dc5a0a7700cade7c7d8d46a17')
+  
 ## Data Preparation & Tools
  - Python (Pandas, NumPy, Matplotlib, Seaborn) was used for data manipulation, cleaning, and visualization.
 - Converted date-related columns to datetime format using the to_datetime method.
